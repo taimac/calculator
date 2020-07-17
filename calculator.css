@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.calc{
+    width: 400px;
+    background-color: black;
+    /* display: block; */
+    /* color: aliceblue; */
+    /* border: none;
+    border-radius: 0; */
+    
+}
+
+.screnn{
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+    width: 400px;
+    display: block;
+    background-color: black;
+}
+
+
+.buttons{
+    /* font-size: 40px; */
+    /* width: 403px; */
+    cursor: pointer;
+  
+}
+
+.calc-button{
+    background-color: #df974c;
+    width: 98px;
+    font-size: 30px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.double-button{
+    width: 198px;
+    font-size: 30px;
+    border: 2px solid #333;
+}   
+ 
+.button-row{
+    display: flex;
+    width: 398px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    align-content: stretch;
+    justify-content: space-between;
+ }
+
+.normal-button{
+    width: 98px;
+    font-size: 30px;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+.triple-button{
+    width: 299.19px;
+    font-size: 30px;
+    border: 2px solid #333;
+}
+
+.hover:hover {
+    background-color: #f0d4d4;
+}
+
+/* .button-row:last-child {
+    background-color: #df974c;
+    width: 98px;
+    font-size: 30px;
+    border: 2px solid #333;
+
+} */
+
+/* .buttons:hover{
+    background-color: #eebbee;
+
+} */
